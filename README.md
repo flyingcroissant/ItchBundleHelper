@@ -1,8 +1,8 @@
 ﻿# README
 
+A quick and dirty utility for loading a JSON bundle description from Itch.io into Notion so it can be triaged and/or organized.
+
 ## Setup / Configuration
-
-
 ### appsettings.json
 This repo's .gitignore includes appsettings.json as a way to avoid accidentally committing the Notion API Key (this is not the best way to do this -- just the easiest).
 Create an appsettings.json in the source directory that contains the other source files like Program.cs. Set the "Copy to Output Directory" property to "Copy Always".
